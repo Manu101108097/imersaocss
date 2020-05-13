@@ -1,0 +1,36 @@
+
+body{
+    background-image: url("imagens/Tijolos.jpg");
+    background-size: 1400px 100vh ;
+}
+
+.subtitle,.site-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.subtitle{
+    font-style: italic ;
+}
+
+.menu{
+    background-color: gray;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
